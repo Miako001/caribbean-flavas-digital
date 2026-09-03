@@ -12,7 +12,7 @@ export function Field({
 }: {
   label: string;
   children: ReactNode;
-  className?: string;
+  className?: string | undefined;
 }) {
   return (
     <label className={cn("block", className)}>
