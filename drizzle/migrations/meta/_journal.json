@@ -1,5 +1,13 @@
 {
   "version": "7",
   "dialect": "postgresql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788425942960,
+      "tag": "0000_create_caribbean_flavas_schema",
+      "breakpoints": true
+    }
+  ]
 }
