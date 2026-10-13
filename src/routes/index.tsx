@@ -22,13 +22,13 @@ export const Route = createFileRoute("/")({
   },
   head: () => ({
     meta: [
-      { title: "Caribbean Flavas | Jamaican & Caribbean Food" },
+      { title: "Zanzé Flavours | Jamaican & Caribbean Food" },
       {
         name: "description",
         content:
           "Bold Jamaican-inspired flavours, good vibes, and food made to leave you wanting more. Jerk chicken, oxtail, jerked goat and reggae fries.",
       },
-      { property: "og:title", content: "Caribbean Flavas | Taste the Flavas of the Caribbean" },
+      { property: "og:title", content: "Zanzé Flavours | Taste the Flavas of the Caribbean" },
       {
         property: "og:description",
         content: "Jamaican soul. Caribbean flavour. Modern experience.",
@@ -184,7 +184,7 @@ function HomePage() {
       <section className="py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Reveal>
-            <SectionHeading eyebrow="Why us" title="Why Caribbean Flavas?" />
+            <SectionHeading eyebrow="Why us" title="Why Zanzé Flavours?" />
           </Reveal>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {WHY.map(({ Icon, title, body }, index) => (
@@ -223,7 +223,7 @@ function HomePage() {
             <SectionHeading eyebrow="Our story" title="A Little Taste of the Islands" />
             <p className="mt-5 text-base leading-relaxed text-muted-foreground">
               {settings?.["about_intro"] ||
-                "Caribbean Flavas brings the bold, vibrant flavours of Jamaica and the Caribbean to your plate. We're a small restaurant with big flava, serving food inspired by the culture, flavours, and spirit of the islands."}
+                "Zanzé Flavours brings the bold, vibrant flavours of Jamaica and the Caribbean to your plate. We're a small restaurant with big flava, serving food inspired by the culture, flavours, and spirit of the islands."}
             </p>
             <Link
               to="/about"

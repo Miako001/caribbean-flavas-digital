@@ -18,13 +18,13 @@ export const Route = createFileRoute("/about")({
   },
   head: () => ({
     meta: [
-      { title: "Our Story | Caribbean Flavas" },
+      { title: "Our Story | Zanzé Flavours" },
       {
         name: "description",
         content:
-          "Small restaurant. Big Flava. The story behind Caribbean Flavas — our Jamaican and Caribbean food inspiration, philosophy and hospitality.",
+          "Small restaurant. Big Flava. The story behind Zanzé Flavours — our Jamaican and Caribbean food inspiration, philosophy and hospitality.",
       },
-      { property: "og:title", content: "Our Story | Caribbean Flavas" },
+      { property: "og:title", content: "Our Story | Zanzé Flavours" },
       { property: "og:description", content: "Small restaurant. Big Flava." },
     ],
   }),
@@ -75,7 +75,7 @@ function AboutPage() {
         <Reveal>
           <p className="text-lg leading-relaxed text-muted-foreground">
             {settings?.["about_intro"] ||
-              "Caribbean Flavas brings the bold, vibrant flavours of Jamaica and the Caribbean to your plate."}
+              "Zanzé Flavours brings the bold, vibrant flavours of Jamaica and the Caribbean to your plate."}
           </p>
         </Reveal>
       </section>

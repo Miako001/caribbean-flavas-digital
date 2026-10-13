@@ -78,14 +78,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Caribbean Flavas | Jamaican & Caribbean Food" },
+      { title: "Zanzé Flavours | Jamaican & Caribbean Food" },
       {
         name: "description",
         content:
-          "Bold Jamaican-inspired flavours, good vibes, and food made to leave you wanting more. Explore the Caribbean Flavas menu and today's offers.",
+          "Bold Jamaican-inspired flavours, good vibes, and food made to leave you wanting more. Explore the Zanzé Flavours menu and today's offers.",
       },
-      { name: "author", content: "Caribbean Flavas" },
-      { property: "og:title", content: "Caribbean Flavas | Jamaican & Caribbean Food" },
+      { name: "author", content: "Zanzé Flavours" },
+      { property: "og:title", content: "Zanzé Flavours | Jamaican & Caribbean Food" },
       {
         property: "og:description",
         content: "Jamaican soul. Caribbean flavour. Modern experience.",

@@ -16,13 +16,13 @@ export const Route = createFileRoute("/menu")({
   },
   head: () => ({
     meta: [
-      { title: "Our Menu | Caribbean Flavas" },
+      { title: "Our Menu | Zanzé Flavours" },
       {
         name: "description",
         content:
-          "Browse the Caribbean Flavas menu: jerk chicken, flavoured oxtail, jerked goat, reggae fries, Caribbean sides, drinks and specials.",
+          "Browse the Zanzé Flavours menu: jerk chicken, flavoured oxtail, jerked goat, reggae fries, Caribbean sides, drinks and specials.",
       },
-      { property: "og:title", content: "Our Menu | Caribbean Flavas" },
+      { property: "og:title", content: "Our Menu | Zanzé Flavours" },
       {
         property: "og:description",
         content: "Bold flavours. Caribbean soul. Something for everyone.",
@@ -142,7 +142,7 @@ function MenuPage() {
           </span>
           <div className="flex-1">
             <h2 id="qr-heading" className="font-display text-xl font-bold">
-              Already at Caribbean Flavas?
+              Already at Zanzé Flavours?
             </h2>
             <p className="mt-1.5 text-sm text-muted-foreground">
               Scan our menu and explore what's available.
@@ -151,7 +151,7 @@ function MenuPage() {
           {qrUrl ? (
             <img
               src={qrUrl}
-              alt="QR code linking to the Caribbean Flavas digital menu"
+              alt="QR code linking to the Zanzé Flavours digital menu"
               loading="lazy"
               width={128}
               height={128}
