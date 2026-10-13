@@ -20,7 +20,7 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { data: settings } = useQuery(settingsQuery());
-  const name = settings?.["restaurant_name"] || "Caribbean Flavas";
+  const name = settings?.["restaurant_name"] || "Zanzé Flavours";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);

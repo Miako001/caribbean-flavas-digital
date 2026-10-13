@@ -13,13 +13,13 @@ export const Route = createFileRoute("/offers")({
   },
   head: () => ({
     meta: [
-      { title: "Flava Deals | Caribbean Flavas Offers" },
+      { title: "Flava Deals | Zanzé Flavours Offers" },
       {
         name: "description",
         content:
-          "Current Caribbean Flavas offers and specials: combo deals, oxtail specials and limited-time weekend flavas.",
+          "Current Zanzé Flavours offers and specials: combo deals, oxtail specials and limited-time weekend flavas.",
       },
-      { property: "og:title", content: "Flava Deals | Caribbean Flavas" },
+      { property: "og:title", content: "Flava Deals | Zanzé Flavours" },
       { property: "og:description", content: "Good food. Better deals." },
     ],
   }),

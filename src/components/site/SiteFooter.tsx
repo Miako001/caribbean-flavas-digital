@@ -8,7 +8,7 @@ import { settingsQuery } from "@/lib/queries";
 
 export function SiteFooter() {
   const { data: settings } = useQuery(settingsQuery());
-  const name = settings?.["restaurant_name"] || "Caribbean Flavas";
+  const name = settings?.["restaurant_name"] || "Zanzé Flavours";
   const socials = [
     { key: "instagram", label: "Instagram", Icon: Instagram },
     { key: "tiktok", label: "TikTok", Icon: Music2 },

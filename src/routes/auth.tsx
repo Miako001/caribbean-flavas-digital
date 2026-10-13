@@ -11,12 +11,12 @@ export const Route = createFileRoute("/auth")({
   ssr: false,
   head: () => ({
     meta: [
-      { title: "Staff Sign In | Caribbean Flavas" },
+      { title: "Staff Sign In | Zanzé Flavours" },
       {
         name: "description",
-        content: "Sign in to manage the Caribbean Flavas menu, offers and restaurant details.",
+        content: "Sign in to manage the Zanzé Flavours menu, offers and restaurant details.",
       },
-      { property: "og:title", content: "Staff Sign In | Caribbean Flavas" },
+      { property: "og:title", content: "Staff Sign In | Zanzé Flavours" },
       { property: "og:description", content: "Restaurant content management sign in." },
       { name: "robots", content: "noindex" },
     ],
@@ -83,7 +83,7 @@ function AuthPage() {
       <div className="w-full max-w-md">
         <img
           src={logoAsset.url}
-          alt="Caribbean Flavas logo"
+          alt="Zanzé Flavours logo"
           width={72}
           height={72}
           className="mx-auto h-18 w-18 rounded-full ring-1 ring-primary/40"

@@ -220,12 +220,12 @@ INSERT INTO public.testimonials (customer_name, review, rating, approved, visibl
   ('Sample Review', 'Great food, great vibes and amazing service.', 5, true, true, true, 3);
 
 INSERT INTO public.restaurant_settings (key, value) VALUES
-  ('restaurant_name', 'Caribbean Flavas'),
+  ('restaurant_name', 'Zanzé Flavours'),
   ('tagline', 'Taste the Flavas of the Caribbean'),
-  ('description', 'Caribbean Flavas brings the bold, vibrant flavours of Jamaica and the Caribbean to your plate.'),
+  ('description', 'Zanzé Flavours brings the bold, vibrant flavours of Jamaica and the Caribbean to your plate.'),
   ('phone', '+00 000 000 0000'),
   ('whatsapp', ''),
-  ('email', 'hello@caribbeanflavas.example'),
+  ('email', 'hello@zanzeflavours.example'),
   ('address', 'Address coming soon'),
   ('opening_hours', 'Mon - Sun: hours coming soon'),
   ('instagram', ''),
@@ -233,7 +233,7 @@ INSERT INTO public.restaurant_settings (key, value) VALUES
   ('facebook', ''),
   ('qr_code_url', ''),
   ('qr_menu_destination', '/menu'),
-  ('about_intro', 'Caribbean Flavas brings the bold, vibrant flavours of Jamaica and the Caribbean to your plate. We are a small restaurant with big flava, serving food inspired by the culture, flavours, and spirit of the islands.'),
+  ('about_intro', 'Zanzé Flavours brings the bold, vibrant flavours of Jamaica and the Caribbean to your plate. We are a small restaurant with big flava, serving food inspired by the culture, flavours, and spirit of the islands.'),
   ('about_flava_source', 'Our food is inspired by Jamaican and wider Caribbean cooking: jerk spice over open heat, slow-cooked stews, fresh herbs, scotch bonnet warmth, and sides that make a plate feel complete.'),
   ('about_small_big', 'We are a small kitchen, and that is on purpose. Smaller means we can care about every plate, season properly, cook to order where we can, and treat every guest like family.'),
   ('about_philosophy', 'Food first. Culture always. Hospitality that feels warm. And a community we want to keep feeding for a long time.');

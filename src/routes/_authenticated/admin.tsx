@@ -16,9 +16,9 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/_authenticated/admin")({
   head: () => ({
     meta: [
-      { title: "Content Manager | Caribbean Flavas" },
+      { title: "Content Manager | Zanzé Flavours" },
       { name: "description", content: "Manage menu, offers, reviews and restaurant details." },
-      { property: "og:title", content: "Content Manager | Caribbean Flavas" },
+      { property: "og:title", content: "Content Manager | Zanzé Flavours" },
       { property: "og:description", content: "Restaurant content management." },
       { name: "robots", content: "noindex" },
     ],
@@ -66,7 +66,7 @@ function AdminPage() {
           <div className="flex items-center gap-3">
             <img
               src={logoAsset.url}
-              alt="Caribbean Flavas logo"
+              alt="Zanzé Flavours logo"
               width={40}
               height={40}
               className="h-10 w-10 rounded-full ring-1 ring-primary/40"

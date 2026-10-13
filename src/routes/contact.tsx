@@ -13,13 +13,13 @@ export const Route = createFileRoute("/contact")({
   },
   head: () => ({
     meta: [
-      { title: "Contact Caribbean Flavas | Call, WhatsApp & Directions" },
+      { title: "Contact Zanzé Flavours | Call, WhatsApp & Directions" },
       {
         name: "description",
         content:
-          "Get in touch with Caribbean Flavas — call, message us on WhatsApp, email, or find our opening hours and directions.",
+          "Get in touch with Zanzé Flavours — call, message us on WhatsApp, email, or find our opening hours and directions.",
       },
-      { property: "og:title", content: "Contact Caribbean Flavas" },
+      { property: "og:title", content: "Contact Zanzé Flavours" },
       { property: "og:description", content: "Come hungry. Leave happy." },
     ],
   }),

@@ -12,13 +12,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/feedback")({
   head: () => ({
     meta: [
-      { title: "Tell Us What You Think | Caribbean Flavas" },
+      { title: "Tell Us What You Think | Zanzé Flavours" },
       {
         name: "description",
         content:
-          "Share your Caribbean Flavas experience. Your feedback helps us make the flava even better.",
+          "Share your Zanzé Flavours experience. Your feedback helps us make the flava even better.",
       },
-      { property: "og:title", content: "Tell Us What You Think | Caribbean Flavas" },
+      { property: "og:title", content: "Tell Us What You Think | Zanzé Flavours" },
       {
         property: "og:description",
         content: "Your feedback helps us make the flava even better.",

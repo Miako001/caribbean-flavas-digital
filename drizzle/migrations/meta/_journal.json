@@ -8,6 +8,13 @@
       "when": 1788425942960,
       "tag": "0000_create_caribbean_flavas_schema",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791886518667,
+      "tag": "0001_rename_to_zanze_flavours",
+      "breakpoints": true
     }
   ]
 }
