@@ -87,7 +87,7 @@ function HomePage() {
         <div className="mx-auto w-full max-w-7xl px-4 pb-20 pt-36 sm:px-6 sm:pb-28 lg:px-8">
           <Reveal className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
-              Jamaican soul · Caribbean flavour
+              JAMAICAN SOUL · ZANZE FLAVOURS
             </p>
             <h1 className="mt-5 font-display text-[2.6rem] font-bold leading-[1.02] sm:text-6xl lg:text-7xl">
               Taste the <span className="text-gold-gradient">Flavas</span> of the Caribbean
