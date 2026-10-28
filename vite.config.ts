@@ -15,5 +15,5 @@ export default defineConfig({
   // Deploying on Vercel (its build environment sets VERCEL=1) uses the vercel
   // preset; every other build, including Lovable's preview/publish, keeps the
   // default Cloudflare preset.
-  ...(process.env.VERCEL === "1" ? { nitro: { preset: "vercel" } } : {}),
+  ...(process.env["VERCEL"] === "1" ? { nitro: { preset: "vercel" } } : {}),
 });
